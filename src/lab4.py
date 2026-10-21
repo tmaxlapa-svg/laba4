@@ -29,7 +29,6 @@ def extract_vehicle_models(text: str) -> list:
         print(f"Сталася помилка: {e}")
         return []
 
-# --- Тестування Варіанту 2 ---
 sample_log = '192.168.1.1 - - [21/Sep/2026:11:42:28 +0300] "GET /index.html HTTP/1.1" 200'
 sample_text = 'Наші нові транспортні моделі HY-400 та AC-X1 вже доступні, на відміну від старої XT.'
 
